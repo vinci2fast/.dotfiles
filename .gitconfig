@@ -1,0 +1,7 @@
+[user]
+	name = Carlos Guinto
+	email = 74002397+carlosguinto@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
