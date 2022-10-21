@@ -19,6 +19,7 @@ local options = {
   splitright = true,           -- vertical splitting always show at right 
   cc = "80",                   -- set a color column at designated column
   termguicolors = true, 
+  scrolloff = 8
 }
 
 for k, v in pairs(options) do

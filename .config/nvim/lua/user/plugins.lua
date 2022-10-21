@@ -42,6 +42,14 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- cmp
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
 
