@@ -1,6 +1,6 @@
 local options = {
   guicursor = "",              -- change cursor to be a block 
-  cursorline = true ,          -- add cursor line 
+  -- cursorline = true ,          -- add cursor line 
   mouse = "a" ,                -- enable mouse support 
   number = true ,              -- show row numbers 
   relativenumber = true ,      -- set relative row number based on position of cursor
@@ -18,6 +18,7 @@ local options = {
   splitbelow = true,           -- horizontal splitting always show below 
   splitright = true,           -- vertical splitting always show at right 
   cc = "80",                   -- set a color column at designated column
+  termguicolors = true, 
 }
 
 for k, v in pairs(options) do

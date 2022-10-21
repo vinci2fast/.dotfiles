@@ -37,8 +37,9 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- navigate buffers
-keymap("n", "<S-l>", "bnext<CR>", opts)
-keymap("n", "<S-h>", "bprevious<CR>", opts)
+keymap("n", "<leader>n", ":bn<CR>", opts)
+keymap("n", "<leader>p", ":bp<CR>", opts)
+keymap("n", "<leader>d", ":bd<CR>", opts)
 
 -- INSERT
 -- escaping insert mode
