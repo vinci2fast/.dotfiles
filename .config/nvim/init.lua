@@ -1,1 +1,2 @@
-require "vinci2fast.options"
+require "user.options"
+require "user.keymaps"
