@@ -1,6 +1,16 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.cmp"
--- vim.cmd("colorscheme kanagawa")
+require("vinci2quick.plugins-setup")
+require("vinci2quick.core.colorscheme")
+require("vinci2quick.core.keymaps")
+require("vinci2quick.core.options")
+
+require("vinci2quick.plugins.comment")
+require("vinci2quick.plugins.nvim-tree")
+require("vinci2quick.plugins.telescope")
+require("vinci2quick.plugins.nvim-cmp")
+require("vinci2quick.plugins.lsp.mason")
+require("vinci2quick.plugins.lsp.lspsaga")
+require("vinci2quick.plugins.lsp.lspconfig")
+require("vinci2quick.plugins.lsp.null-ls")
+require("vinci2quick.plugins.autopairs")
+require("vinci2quick.plugins.treesitter")
+require("vinci2quick.plugins.gitsigns")

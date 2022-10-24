@@ -127,3 +127,6 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+. "$HOME/.cargo/env"
+source /home/vinci2fast/alacritty/extra/completions/alacritty.bash
+source ~/.bash_completion/alacritty
