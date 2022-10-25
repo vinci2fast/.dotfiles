@@ -29,7 +29,7 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 
 	-- colorscheme
-	use("rebelot/kanagawa.nvim")
+  use("rebelot/kanagawa.nvim")
 
 	-- window management
 	use("christoomey/vim-tmux-navigator")

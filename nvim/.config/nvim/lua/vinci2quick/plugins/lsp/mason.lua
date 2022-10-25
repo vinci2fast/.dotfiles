@@ -35,5 +35,6 @@ mason_null_ls.setup({
     'eslint_d',
     'fixjson',
     'autopep8',
-  }
+  },
+  automatic_installation = true,
 })
